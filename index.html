@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Green Earth</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="logo.png">
+        <style>
+            @font-face {
+                font-family: Comfortaa;
+                src: url("Comfortaa.ttf");
+            }
+            body {
+                width: 99%;
+                height: 100%;
+                background: #11998e;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                font-family: Comfortaa;
+
+            }
+            .links {
+                height: 95vh;
+                width: 99vw;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                /* text-align: center; */
+            }
+            a {
+                color: #000;
+                text-decoration: none;
+                text-align: center;
+                padding: 3vh;
+                height: 5vh;
+                width: 40vh;
+                margin: 2vh;
+                font-size: 5vh;
+                background:
+                linear-gradient(
+                to bottom, #fff 0%,
+                #fff 100%
+                );
+                background-position: 0 80%;
+                background-repeat: repeat-x;
+                background-size: 4px 4px;
+                /* color: #000; */
+                /* text-decoration: none; */
+                transition: background-size .2s;
+            }
+
+            a:hover {
+                background-size: 4px 100%;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="links">
+            <a href="https://iuse.netlify.app/">iUse</a>
+            <a href="https://carboncal.netlify.app">CarbonCal</a>
+        </div>
+    </body>
+</html>
